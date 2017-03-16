@@ -1,8 +1,43 @@
+## Isaac Cheatsheets
+[Command Line Interface](https://gist.github.com/kangarang/c43f6c1e4eee7abf080abb21ea35d361)
+
+[Flexbox](https://gist.github.com/kangarang/24e1a05759610553cd399c09255d6286)
+
+[Git](https://gist.github.com/kangarang/c422ef36806ba645a71e5b6ccf1750ee)
+
+[Programming, Debugging](https://gist.github.com/kangarang/51b092974d17a91d2f8583638936bef4)
+
+[Primitives, Operators, Conditionals](https://gist.github.com/kangarang/fa3fd6e43b24e881c7b4f3670d9689aa)
+
+[Data Structures](https://gist.github.com/kangarang/553b92f7d383dc04953061a42bf61874)
+
+
+## JavaScript
+[MDN: getting started with JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+
+[Codecademy JS](https://www.codecademy.com/learn/javascript)
+
+[MDN Grammar and Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types)
+
+[MDN Comparison Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
+
+
+## Command Line Interface
+[Command line cheatsheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
+
+
+## Git
+[Customizing git](https://git-scm.com/book/be/v2/Customizing-Git-Git-Configuration)
+
+[Git guide](http://rogerdudler.github.io/git-guide/)
+
+[Generating ssh and adding it to ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+
+
 ## HTML
 [Codecademy css html](https://www.codecademy.com/learn/web)
 
 [HTML cheat sheet](http://www.hostingreviewbox.com/wp-content/uploads/2016/02/html5-cheat-sheet-1.png)
-
 
 
 ## Styling
@@ -26,9 +61,7 @@
 
 [MDN using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
-
 ### Colors
-
 [Coolors](https://coolors.co/)
 
 [Adobe color wheel](https://color.adobe.com/create/color-wheel/?base=2&rule=Triad&selected=4&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.14028078466307542,0.7,0.15304770839244164,0.5225983290294072,0.40040112094725056,1,0.3004011209472506,1,0.31635863193718516,0.8,0.44769880395595385,0.16032089675780048,0.7,0.4110125901979021,0.17528078466307537&swatchOrder=0,1,2,3,4)
@@ -36,33 +69,3 @@
 [Paletton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
 
 [Colour lovers](http://www.colourlovers.com/palettes/most-loved/all-time/meta)
-
-
-
-## Command Line Interface
-
-[Isaac CLI cheatsheet](https://gist.github.com/kangarang/c43f6c1e4eee7abf080abb21ea35d361)
-
-[Command line cheatsheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
-
-
-
-## Git
-
-[Isaac Git cheatsheet](https://gist.github.com/kangarang/c422ef36806ba645a71e5b6ccf1750ee)
-
-[Customizing git](https://git-scm.com/book/be/v2/Customizing-Git-Git-Configuration)
-
-[Git guide](http://rogerdudler.github.io/git-guide/)
-
-[Generating ssh and adding it to ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-
-
-
-## JavaScript
-
-[Isaac Programming / Debugging cheatsheet](https://gist.github.com/kangarang/51b092974d17a91d2f8583638936bef4)
-
-[MDN: getting started with JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
-
-[Codecademy JS](https://www.codecademy.com/learn/javascript)
