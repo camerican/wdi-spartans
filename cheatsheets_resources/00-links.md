@@ -1,4 +1,4 @@
-## Isaac Cheatsheets
+## Cheatsheets
 [Command Line Interface](https://gist.github.com/kangarang/c43f6c1e4eee7abf080abb21ea35d361)
 
 [Flexbox](https://gist.github.com/kangarang/24e1a05759610553cd399c09255d6286)
