@@ -9,7 +9,7 @@ function Jukebox() {
   //  goes here
 }
 
-// defines the Jukebox prototype object
+// defines the Jukebox prototype method
 Jukebox.prototype.play = function () {
   // the code for playing a song would go here
 }
