@@ -11,7 +11,9 @@
 
 [Data Structures](https://gist.github.com/kangarang/553b92f7d383dc04953061a42bf61874)
 
+[This](https://gist.github.com/kangarang/6b14cc1cbe0887c1ff940bcdeeec30ed)
 
+[Functions](https://gist.github.com/kangarang/26fa6dd3e868d10a7528e8b349f9a52f)
 
 ## JavaScript
 [MDN: getting started with JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
