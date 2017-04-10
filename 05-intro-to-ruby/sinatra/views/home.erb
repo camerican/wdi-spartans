@@ -1,0 +1,16 @@
+<!--
+  this will show up within the <%= yield %>
+    statement in the layout.erb
+ -->
+<h1>Another Homepage</h1>
+
+<img id="professor" src="professor.jpg" alt="">
+<button type="button" name="button">Go</button>
+
+<ul>
+  <% @array.each do |item| %>
+    <li>
+      <%= item %>
+    </li>
+  <% end %>
+</ul>

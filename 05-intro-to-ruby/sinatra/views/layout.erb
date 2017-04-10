@@ -1,0 +1,41 @@
+<!--
+  this is the layout template for the entire app
+
+  all the code in this file aside from <%= yield %>
+    will appear on every page of this website
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>This is my homepage</title>
+
+    <!-- this css file lives within the public folder -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- this js file lives within the public folder -->
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <nav>
+      <!-- this points to the / page -->
+      <a href="/">Homepage</a>
+
+      <!-- this links to the /profile page -->
+      <a href="/profile">Profile</a>
+
+      <!-- this links to the /contact-me page -->
+      <a href="/contact-me">Contact Me</a>
+    </nav>
+
+    <!--
+      this is where your content from your other
+        templates will appear within the layout
+    -->
+    <%= yield %>
+
+    <footer>
+      Footer code would go here
+    </footer>
+  </body>
+</html>
