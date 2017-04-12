@@ -1,0 +1,24 @@
+<!--
+  The method is the route where its going
+  The action is going to be how its going to get there (using a post or get)
+
+  method: post
+  action: /form-response
+
+  You will need to have the follwing in the app.rb:
+
+  post "/contact-me-response" do
+    params[:from] will hold the from address
+    params[:to] will store the to address
+    params[:subject] will hold the subject
+    params[:content] will hold the content info
+  end
+-->
+<form action="/contact-me-response" method="post">
+  <input type="text" name="from" value="From">
+  <input type="text" name="subject" value="Subject">
+  <input type="text" name="to" value="To">
+  <textarea name="content" rows="8" cols="80">Content</textarea>
+
+  <input type="submit">
+</form>
