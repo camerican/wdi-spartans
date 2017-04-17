@@ -15,6 +15,8 @@
 
 [Functions](https://gist.github.com/kangarang/26fa6dd3e868d10a7528e8b349f9a52f)
 
+[Reddit Saved](https://gist.github.com/kangarang/bdb1a4fd4641427b091bce323942f07b)
+
 ## JavaScript
 [MDN: getting started with JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
 
