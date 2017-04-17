@@ -1,23 +1,21 @@
-class Animal
-  attr_accessor :legs
-end
+class Mammal
+  attr_accessor :genus
+  attr_accessor :color
 
-class Dog < Animal
-  def woof
-    puts "WOOF"
+  def initialize(genus, color)
+    @genus = genus
+    @color = color
   end
 end
 
-### Try these in IRB/Pry!
-# $ irb
-# $ load 'practice.rb'
 
-# my_dog = Dog.new
+# --------
 
-# my_dog.legs = 4
 
-# my_dob.legs
-# => 4
+# rat = Mammal.new("Rattus", "gray")
 
-# my_dog.woof
-# => "WOOF"
+# rat.genus
+# => "Rattus"
+
+# rat.color
+# => "gray"
