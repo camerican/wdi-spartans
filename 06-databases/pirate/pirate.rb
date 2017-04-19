@@ -1,9 +1,9 @@
 require "sinatra"
 
 get "/" do
-  "Hello World"
+  erb :landing
 end
 
 get "/pirates" do
-  "All Pirates"
+  erb :pirates
 end
