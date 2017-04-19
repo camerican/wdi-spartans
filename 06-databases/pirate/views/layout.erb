@@ -15,6 +15,12 @@
       <% end %>
     </nav>
 
+    <div class="flash-message">
+      <% if flash[:notice] %>
+        <%= flash[:notice] %>
+      <% end %>
+    </div>
+
     <%= yield %>
 
     <footer>
