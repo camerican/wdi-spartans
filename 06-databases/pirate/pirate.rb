@@ -9,5 +9,17 @@ get "/" do
 end
 
 get "/pirates" do
+  @pirates = Pirate.all
+
   erb :pirates
 end
+
+get "/pirate_create" do
+  Pirate.create(name: "Orlando", bday: "12/01/1983")
+end
+
+# get "/account" do
+#   @pirate = Pirate.find(1)
+#
+#   erb :account
+# end
