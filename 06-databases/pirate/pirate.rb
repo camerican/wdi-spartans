@@ -3,6 +3,7 @@ require "sinatra/activerecord"
 require "./models"
 
 set :database, "sqlite3:pirate.sqlite3"
+set :sessions, true
 
 get "/" do
   erb :landing
@@ -24,6 +25,48 @@ get "/letter_create" do
     content: "RRrrrrrrrrr",
     pirate_id: Pirate.first.id
   )
+end
+
+get "/ship_create" do
+  Ship.create(
+    name: "SS Spartans"
+  )
+end
+
+get "/pirate_ship_create" do
+  PirateShip.create(
+    pirate_id: Pirate.first.id,
+    ship_id: Ship.first.id
+  )
+end
+
+get "/sign-in" do
+  erb :sign_in_form
+end
+
+post "/sign-in" do
+  # puts params[:username]
+  # puts params[:password]
+
+  @pirate = Pirate.where(name: params[:name]).first
+
+  if @pirate.password == params[:password]
+    session[:pirate_id] = @pirate.id
+    redirect "/"
+  else
+    redirect "/password-not-found"
+  end
+end
+
+get '/sign-out' do
+  session[:pirate_id] = nil
+  redirect "/"
+end
+
+get "/profile" do
+  @pirate = Pirate.find(session[:pirate_id])
+
+  erb :profile
 end
 
 # get "/account" do

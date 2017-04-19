@@ -8,7 +8,11 @@
   </head>
   <body>
     <nav>
-      Navigation
+      <% if session[:pirate_id] %>
+        <a href="/sign-out">Sign Out</a>
+      <% else %>
+        <a href="/sign-in">Sign In</a>
+      <% end %>
     </nav>
 
     <%= yield %>
