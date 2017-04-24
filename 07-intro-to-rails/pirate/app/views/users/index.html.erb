@@ -1,0 +1,23 @@
+<!-- this view corresponds to the UsersController, index action -->
+Color: <%= @colors[1] %>
+
+<!-- loops thru each user and display their first and last name -->
+<ul>
+  <% @users.each do |u| %>
+    <li>
+      <!-- displays user first name -->
+      <strong>Fname</strong>: <%= u.fname %>
+
+      <!-- displays user last name -->
+      <strong>Lname</strong>: <%= u.lname %>
+
+      <!-- diplays a link to the users show page -->
+      <!--
+        when clicking this link, this will create
+          a GET request to the /users/:id url
+          which corresponds to the the UsersController, show action
+      -->
+      <%= link_to "Link", "/users/#{u.id}" %>
+    </li>
+  <% end %>
+</ul>
