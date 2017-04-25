@@ -13,4 +13,16 @@ class UsersController < ApplicationController
     # loads one user in the database
     @user = User.find(params[:id])
   end
+
+  def destroy
+    @user = User.find(params[:id])
+
+    if @user.destroy
+      flash[:notice] = "User was deleted"
+    else
+      flash[:alert] = "User could not be deleted"
+    end
+
+    redirect_to users_path
+  end
 end
