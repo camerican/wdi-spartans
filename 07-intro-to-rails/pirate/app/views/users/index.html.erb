@@ -17,7 +17,8 @@ Color: <%= @colors[1] %>
           a GET request to the /users/:id url
           which corresponds to the the UsersController, show action
       -->
-      <%= link_to("Link", user_path(u), method: :delete) %>
+      <%= link_to("Show", user_path(u)) %>
+      <%= link_to("Delete", user_path(u), method: :delete) %>
     </li>
   <% end %>
 </ul>

@@ -1,0 +1,25 @@
+<%= form_for @user do |form| %>
+  <%= form.label :fname %>
+  <%= form.text_field :fname %>
+  <%= form.label :lname %>
+  <%= form.text_field :lname %>
+  <%= form.submit %>
+<% end %>
+
+<!--
+  <form method="POST" action="/users">
+    <label for="title">User Fname</label>
+    <input type="text" name="[user]title">
+    <label for="text">User Lname</label>
+    <input type="password" name="[user]text">
+    <input type="submit">
+  </form>
+-->
+
+<!--
+  post "/users" do
+    User.create(fname: params[:fname], lname: params[:lname])
+
+    redirect "/"
+  end
+-->
