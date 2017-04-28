@@ -1,7 +1,23 @@
 <!-- this view corresponds to the UsersController, index action -->
+
+<%#= content_tag :h2, "Our Users" %>
+<%= headline "Our Users" %>
+
 Color: <%= @colors[1] %>
 
+Our Captain Says: <%= link_to 'http://pirates.com' do 
+  talk_like_a_pirate 
+end %>
+
 <!-- loops thru each user and display their first and last name -->
+
+
+<ul>
+  <% @users.each do |u| %>
+    <%= user_div u %>
+  <% end %>
+</ul>
+<hr />
 <ul>
   <% @users.each do |u| %>
     <li>
