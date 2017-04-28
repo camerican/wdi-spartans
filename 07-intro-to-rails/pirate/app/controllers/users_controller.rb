@@ -19,10 +19,10 @@ class UsersController < ApplicationController
 
   def update
     @user = User.find(params[:id])
-    @user.fname = params[:user][:fname]
-    @user.lname = params[:user][:lname]
+    # @user.fname = params[:user][:fname]
+    # @user.lname = params[:user][:lname]
 
-    if @user.save
+    if @user.update(user_params)
       flash[:notice] = "The user was updated"
       redirect_to user_path(@user)
     else
@@ -32,10 +32,11 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(
-      fname: params[:user][:fname],
-      lname: params[:user][:lname]
-    )
+    # @user = User.new(
+    #   fname: params[:user][:fname],
+    #   lname: params[:user][:lname]
+    # )
+    @user = User.new(user_params)
 
     if @user.save
       flash[:notice] = "The user was created"
@@ -63,4 +64,12 @@ class UsersController < ApplicationController
 
     redirect_to users_path
   end
+
+  private
+
+  def user_params
+    # to do: implement this...
+    params.require(:user).permit(:fname,:lname)
+  end
+
 end
